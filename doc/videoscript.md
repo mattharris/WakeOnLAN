@@ -3,9 +3,9 @@ RISC OS Community - WakeOnLAN
 
 Intro
 -----
-Hello and welcome to the 'RISC OHH ESS' Community.
+Hello and welcome to the RISC OS Community.
 
-This video demonstrates the usage of the WakeOnLAN application which allows you to use a RISC OHH ESS machine to remotely start a Wake-on-LAN compatible computer.
+This video demonstrates the usage of the !WakeOnLAN application which allows you to use a RISC OS machine to remotely start a Wake-on-LAN compatible computer.
 
 Broadcast address
 -----------------
@@ -15,7 +15,7 @@ Open a Task Window and then type `ifconfig -a` to display the network informatio
 
 Here we are interested in `ej0`. The broadcast address is as highlighted - `192.168.1.255`. We need to remember this for later.
 
-The MAC address is also shown under `ether`. It will be necessary to use a similar command on the machine that you wish to wake to determine it's MAC address.
+The MAC address is also shown under `ether`. It will be necessary to use a similar command on the machine that you wish to wake to determine its MAC address.
 
 WIMP Application
 ----------------
@@ -37,7 +37,7 @@ CLI
 ---
 Now let us demonstrate using the command line to perform the same task.
 
-Like most RISC OHH ESS utilities, this assumes that WakeOnLAN has already been 'seen' by the Filer.
+Like most RISC OS utilities, this assumes that !WakeOnLAN has already been 'seen' by the Filer.
 
 Open a Task Window and then type the following:
 
@@ -63,6 +63,6 @@ Press Enter and the Wake-on-LAN packet is sent. However this time, we see the ou
 
 Outro
 -----
-In this video we have shown several ways to use the WakeOnLAN application to remotely start compatible machines from your RISC OHH ESS computer.
+In this video we have shown several ways to use the !WakeOnLAN application to remotely start compatible machines from your RISC OS computer.
 
 Thanks for watching.
